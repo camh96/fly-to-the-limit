@@ -23,6 +23,34 @@ header
 	  position: relative;
 }
  
+#main-home
+{
+	width: 60%;
+	/*background-color: lawngreen; */
+	margin: 0 auto;
+
+}
+#main-home img
+{	
+	float: left;
+	max-width: 350px;
+	padding-bottom: 10%;
+	padding-top: 10%
+
+}
+#main-home p
+{
+	color: black;
+}
+
+#maintext
+{
+	width: 40%;
+	margin-left: 300px;
+	padding-top: 8%;
+	padding-left: 10%;
+
+}
 .logo 
 {
 	  text-decoration: none;
@@ -191,5 +219,4 @@ label:after{
 	}
 h1 {
 	  font-size: 26px;
-}
 }
