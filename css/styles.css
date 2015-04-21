@@ -45,12 +45,27 @@ header
 
 #maintext
 {
-	width: 40%;
+	width: 70%;
 	margin-left: 300px;
 	padding-top: 8%;
 	padding-left: 10%;
 
 }
+.header-bar
+{
+	padding: 10px;
+	width: 60%;
+	background-color: #2e6171;
+	margin: 0 auto;
+
+}
+p.header-bar
+{
+	color: white;
+	text-align: center;
+
+}
+
 .logo 
 {
 	  text-decoration: none;
