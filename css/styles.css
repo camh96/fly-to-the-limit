@@ -2,7 +2,6 @@ body
 {
 	  font-family: 'Roboto', sans-serif;
 }
- 
 * 
 {
 	  box-sizing: border-box;
@@ -16,17 +15,14 @@ header
 	  padding-left: 1%;
 }
  
-.left-img
-{
-	width:350px;
-	margin-left: 20%;
-	padding-top: 10px;
-}
+img.left-img 
+{ 
+    height: 200px; 
+    width: 350px; 
+  	margin-top: 2%;
+    margin-left: 20%;
+    margin-right: -5%;
 
-.right-img
-{
-	width:350px;
-	margin-left: 55%;
 }
 
 
