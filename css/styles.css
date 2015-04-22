@@ -9,13 +9,27 @@ body
 	  list-style-type: none;
 }
  
-header 
+header
 {
-	  background: url(http://i.huffpost.com/gen/1442962/images/o-SKYDIVING-PLANE-facebook.jpg) no-repeat center center fixed; 
+	  background: url(../imgs/spin.jpg) no-repeat center center fixed;
 	  height: 15%;
 	  padding-left: 1%;
 }
  
+.left-img
+{
+	width:350px;
+	margin-left: 20%;
+	padding-top: 10px;
+}
+
+.right-img
+{
+	width:350px;
+	margin-left: 55%;
+}
+
+
 .inner 
 {
 	  max-width: 1000px;
