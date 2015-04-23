@@ -54,10 +54,6 @@ Known how to fly since he was a kid. Took the controls of a small plane when he 
 Tours/Pricing
 -------------------
 
-
-### Tables
-
-
 Plane     | Cost per hour per person
 -------- | ---
 Fixed Wing | $350
