@@ -154,7 +154,6 @@ div.item
 #main-home
 {
 	width: 60%;
-	/*background-color: lawngreen; */
 	margin: 0 auto;
 
 }
@@ -228,23 +227,12 @@ h2
 	  background-color: rgba(0,0,0, .5);
 	  padding: 1em;
 }
- 
-/*nav ul
-{
-padding-right:5%; 
 
-}
-*/
 nav > ul 
 {
   	float: right;
 }
 
-/*nav > ul > li > a {
-	padding-left: 10%;
-	padding-right: 10%;	
-}
-*/
 nav a 
 {
 	color: white;
@@ -278,62 +266,6 @@ nav a:hover
 {
 	  color: #777;
 }
-/*nav > ul li ul li 
-{
-	  width: 100%;
-  	text-align: left;
-}
- 
-nav ul li:hover 
-{
-	  cursor: pointer;
-	  position: relative;
-}
-nav ul li:hover > ul 
-{
-  	display: block;
-}
-nav ul li:hover > a 
-{
-	  color: #777;
-}
-nav > ul > li > a 
-{
-	cursor: pointer;
-	display: block;
-  	outline: none;
-  	width: 100%;
-	text-decoration: none;
-}
- 
-nav > ul > li 
-{
-  	float: left;
-  	text-align: center;
-}
-
-nav > ul li ul 
-{
-  	display: none;
-  	position: absolute;
-  	left: 0;
-	  top: 100%;
-  	width: 100%;
-	  z-index: 2000;
-}
-nav > ul li ul li > a 
-{
-	  text-decoration: none;
-}
- 
-[type="checkbox"], label 
-{
-	  display: none;
-}
- */
-
-
-
 
 @media screen and (max-width: 768px) {
 	nav ul {
