@@ -57,7 +57,6 @@ Tours/Pricing
 
 ### Tables
 
-**Markdown Extra** has a special syntax for tables:
 
 Plane     | Cost per hour per person
 -------- | ---
