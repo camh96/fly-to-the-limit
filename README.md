@@ -32,15 +32,19 @@ Company is owned by husband and wife team, Olga and Bruce McKenzie. Both born in
 #### Staff
 
 **Finn McCool**
+
 Stunt pilot for th red arrows, served in combat choppers. Owns an EXTRA EA-200 for the ultimate full stunt flight experience.
 
 **Wendy "Dropper" Gilhallen**
+
 Commercial pilot for 13 year in Africa, Russia and South America. Has survived more than 3 plane crashes, which she claims none of which were her fault. Owns a Cessna-172 Skyhawk P. This plane is ideal for low level sightseeing.
 
 **John "Doc" Holliday**
+
 With over 10,000 hours flying helicopters in the bush and mountains of the Southern Alps for deer recovery under his belt, Doc is well qualified to land you and your friends in the remote parts of New Zealand. He will help map your route according to his Meteorological and Geographic knowledge, drop you off and pick you up when he's done.
 
 **Hans Gerhansen**
+
 Known how to fly since he was a kid. Took the controls of a small plane when he was 12 and first flew solo at 14. He settled into a few test pilot jobs out of high school, but later left those as he prefers to have company when in the sky. Owns a microlight, but you'll see him at the controls of any of our crew's plane. When he's not skiing, tramping, hang gliding or climbing, you will find him playing with his band at the local hotel.
 
 
@@ -66,7 +70,11 @@ Glider(3+ hours recommended)     | $1200
 ### Standard Flights
 
 1 Hour Scenic
+
 2 Hour Scenic
+
 Mountain Viewing (Mt Cook at sunset)
+
 Lake trips in our amphibian aircraft (Fully catered day trips available)
+
 Photographic flights. (Doors can be removed by arrangement for professional shoots only.)
