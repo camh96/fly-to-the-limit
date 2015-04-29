@@ -1,0 +1,55 @@
+body {
+	font: 16px/1.5 sans-serif;
+	background-color: #ccc;
+}
+
+#container { 
+	width: 500px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.form-group {
+	margin: 1em 0;
+	position: relative;
+}
+
+.form-group label {
+	display: block;
+}
+
+.form-group input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]):not([type="button"]) {
+	font-size: 1.4em;
+	padding: .5em;
+}
+
+.form-group textarea {
+	font-size: 1.2em;
+}
+
+.form-group 
+    input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]):not([type="button"]),
+.form-group textarea { 
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.danger {
+	background-color: #fcc;
+	color: #c00;
+	font-size: 0.8em;
+	padding: 0 .5em;
+	border-radius: 3px;
+}
+
+.form-group .danger {
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+
+
+
