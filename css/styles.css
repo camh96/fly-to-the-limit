@@ -13,6 +13,20 @@ body
 	  
 }
 
+
+.danger {
+	color: #CC0000;
+}
+
+.form-group .danger {
+	display: block;
+	color: #CC0000;
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+
+
 .clearfix:before, .clearfix:after {
 	content: " ";
 	display: table;
@@ -69,8 +83,47 @@ form
 {
 	text-align: center;
 	margin: 0 auto;
-	width: 80%;
-	padding: 10%;
+	width: 960px;
+	padding: 20px;
+
+}
+
+.contact-us p
+{
+	display: inline-block;
+	padding-right: 5px;
+
+}
+
+
+.contact-us input
+{
+	width: 230px;
+	height: 35px;
+	margin: auto;
+	font-family: helvetica, sans-serif;
+	font-size: 20px;
+
+
+}
+.contact-us button
+{
+	width: 100px;
+	height: 50px;
+	background-color: #000059;
+	color: #ffffff;
+	font-family: helvetica, sans-serif;
+	font-size: 12px;
+	border-style: none;
+	border-radius: 5px;
+	display: block;
+	margin-left: 680px;
+
+}
+.contact-us textarea
+{
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
 
 }
 
@@ -82,6 +135,8 @@ header.main
 	  padding-left: 1%;
 }
  
+
+
 header.about
 {
 	  background: url(http://2.bp.blogspot.com/-2hulQLmDGng/TkiADkKtTjI/AAAAAAAACXI/fhVZCfSoBHE/s1600/Skydiving%2BWallpaper.png) no-repeat center center fixed;
@@ -332,77 +387,6 @@ label:after{
 	}
 h1 {
 	  font-size: 26px;
-}
-
-.pure-form input[type=text],.pure-form input[type=email],.pure-form input[type=date],.pure-form input[type=number],.pure-form select,.pure-form textarea 
-{
-    padding: .5em .6em;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-shadow: inset 0 1px 3px #ddd;
-    border-radius: 4px;
-    vertical-align: middle;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-.pure-form select 
-{
-    height: 2.25em;
-    border: 1px solid #ccc;
-    background-color: #fff
-}
-.pure-form label 
-{
-    margin: .5em 0 .2em
-}
-.pure-form legend 
-{
-    display: block;
-    width: 100%;
-    padding: .3em 0;
-    margin-bottom: .3em;
-    color: #333;
-    border-bottom: 1px solid #e5e5e5
-}
-
-.pure-form-aligned input,.pure-form-aligned textarea,.pure-form-aligned select,.pure-form-aligned .pure-help-inline,.pure-form-message-inline 
-{
-    display: inline-block;
-    display: inline;
-    zoom: 1;
-    vertical-align: middle
-}
-.pure-form-aligned textarea 
-{
-    vertical-align: top
-}
-
-.pure-button 
-{
-    font-family: inherit;
-    font-size: 100%;
-    padding: .5em 1em;
-    color: #444;
-    color: rgba(0, 0, 0, .8);
-    border: 1px solid #999;
-    border: 0 rgba(0, 0, 0, 0);
-    background-color: #E6E6E6;
-    text-decoration: none;
-    border-radius: 2px
-}
-}
-.pure-form-aligned .pure-control-group 
-{
-    margin-bottom: .5em
-}
-.pure-form-aligned .pure-control-group label 
-{
-    text-align: right;
-    display: inline-block;
-    vertical-align: middle;
-    width: 10em;
-    margin: 0 1em 0 0
 }
 
 
