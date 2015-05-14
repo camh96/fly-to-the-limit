@@ -18,8 +18,8 @@
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="faqs.html">FAQs</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a class="active" href="contact.html">Contact</a></li>
-                        <li><a href="booking.html">Bookings</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="active" href="booking.html">Bookings</a></li>
                     </ul>
                 </nav>
                 <h2 class="desc">CONTACT US</h2>
@@ -38,6 +38,16 @@
 <div id="firstname-error" class="danger"></div>
 <p>Email: </p><input class="contact-us" id="email" name="email" type="email" required><br />
 <div id="email-error" class="danger"></div>
+<p>Date: </p><input class="contact-us" id="date" name="date" type="text" required><br />
+<div id="date-error" class="danger"></div>
+<p>Tour: </p><select  class="contact-us" id="tour" name="tour" type="text" required>
+  <option value="Skydive">Skydive</option>
+  <option value="Scenic Flight">Scenic Flight</option>
+  <option value="Day Excursion">Day Excursion</option>
+  <option value="Mountain Adventure">Mountain Adventure</option>
+</select><br />
+
+<div id="tour-error" class="danger"></div>
 <p>Message: </p><textarea id="message" name="message" rows="5" cols="60" required class="fv-minlength-10"></textarea>
 <div id="message-error" class="danger"></div>
 <p>I agree to the terms and conditions.</p><input id="agree" name="agree" type="checkbox" required>
@@ -58,11 +68,30 @@
 document.addEventListener("DOMContentLoaded", function() {
     addFormValidation(document.querySelector("#contact-form"));
 });
+
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
+
 </script>
+   
+
+
         <script src="contact-form.js"></script>
         <script src="rome.js"></script>
-    </body>
-</html>er doesn't have to scroll up.
+        <script>
+        if(dd<10) {
+    dd='0'+dd
+} 
+
+if(mm<10) {
+    mm='0'+mm
+} 
+today = yyyy+'/'+mm+'/'+dd;
+
+ rome(date, { time: false, min:today, max:'2016-04-30' });</script>
+
         </div>
     </body>
 </html>

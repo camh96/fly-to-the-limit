@@ -45,7 +45,7 @@ function validateField(el) {
 
 	if (el.id.length === 0 || el.name.length === 0) {
 		console.error("error: ", el);
-		throw new Error("found a form element that is missing an id and/or name attribute. name should be there. id is required for determining the field's error message element.");
+		throw new Error("Found a form element that is missing an id and/or name attribute. name should be there. id is required for determining the field's error message element.");
 	}
 
 	// find this element's match error div.
